@@ -26,8 +26,8 @@ load_dotenv()
 st.set_page_config(page_title="NAMA Compliance Agent", layout="wide")
 
 try:
-    #api_key = st.secrets["GEMINI_API_KEY"]
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = st.secrets["GEMINI_API_KEY"]
+    #api_key = os.getenv("GEMINI_API_KEY")
     genai.configure(api_key=api_key)
 except Exception as e:
     st.error(f"Configuration Error: {e}")
