@@ -382,7 +382,7 @@ with col1:
 with col2:
     # HTML is used here to force the text to be perfectly centered
     st.markdown(
-        "<h1 style='text-align: center; margin: 0; font-size: 36px;'>NAMA 2.0</h1>", 
+        "<h1 style='text-align: center; margin: 0; font-size: 36px;'>NAMA 3.0</h1>", 
         unsafe_allow_html=True
     )
 
